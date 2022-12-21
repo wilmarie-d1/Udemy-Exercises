@@ -82,3 +82,23 @@ function isShortsWeather(temperature){
 }
 console.log(isShortsWeather(80));
 console.log(isShortsWeather(72));
+
+
+// Last Element Exercise
+// Please write a function called lastElement which accepts a single array argument.  The function should return the last element of the array (without removing the element).  If the array is empty, the function should return null.
+//
+// lastElement([3,5,7]) //7
+// lastElement([1]) //1
+// lastElement([]) //null
+
+function lastElement(arr) {
+    const lastItem = arr[arr.length - 1]
+    if (arr === '[]' || arr == '') {
+        return null;
+    } else {
+        return lastItem;
+    }}
+console.log(lastElement([1, 2, 3]))
+console.log(lastElement([1, 2]))
+console.log(lastElement([]))
+
