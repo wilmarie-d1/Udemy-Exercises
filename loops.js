@@ -13,6 +13,6 @@ for (let  i = 1 ; i <= 6; i++) {
 // 5
 // 0
 
-for (let i = 25; i > 0; i-5) {
+for (let i = 25; i >= 0; i-=5) {
     console.log(i)
 }
