@@ -8,5 +8,12 @@ public class Lesson2 {
         System.out.println("Integer Minimum Value = " + myMinIntValue);
         System.out.println("Integer Minimum Value = " + Integer.MIN_VALUE);
         System.out.println("Integer Value Range (" + Integer.MIN_VALUE + " to " + Integer.MAX_VALUE + ")");
+        System.out.println("Integer Value Range (" + Integer.MIN_VALUE + " to " + Integer.MAX_VALUE + ")");
+        System.out.println("Busted Max value = " + (myMaxIntValue + 1));
+        System.out.println("Busted Min value = " + (myMinIntValue - 1));
+        System.out.println("Integer Max Value = " + Integer.MAX_VALUE);
+//        int myMaxIntTest = 2147483648;
+        int willThisCompile = (Integer.MAX_VALUE + 1);
+        int willThisCompile2 = (214748346 + 1);
     }
 }
